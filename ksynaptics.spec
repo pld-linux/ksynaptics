@@ -1,14 +1,13 @@
-######		Unknown group!
 Summary:	Touchpad configuration module for KDE Control Center
-Summary(pl):	Modul konfiguracyjny dla touchpadów do centrum sterowania KDE
+Summary(pl):	Modu³ konfiguracyjny dla touchpadów do centrum sterowania KDE
 Name:		ksynaptics
 Version:	0.2.4
 Release:	1
 License:	GPL
-Group:		Applications	
+Group:		X11/Applications	
 Source0:	http://qsynaptics.sourceforge.net/%{name}-%{version}.tar.gz
 # Source0-md5:	227c3eaa7dde7e5abd0a984a11c70e29
-URL:		http://qsynaptics.sourceforge.net
+URL:		http://qsynaptics.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	kdelibs-devel >= 9:3.2.0
@@ -19,13 +18,23 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 KSynaptics is a control center module that enables users to take full
-advantage of their mobiles' synaptics touch pad. It depends on the
-XFree's synaptics driver and offers the following features:
- - *adjustable pressure sensitivity
- - *tapping configuration / smart tapping
- - *mouse button emulation
- - *circular scrolling
- - *smart mode
+advantage of their mobiles' Synaptics touch pad. It depends on the
+XFree86's synaptics driver and offers the following features:
+ - adjustable pressure sensitivity
+ - tapping configuration / smart tapping
+ - mouse button emulation
+ - circular scrolling
+ - smart mode
+
+%description -l pl
+KSynaptics to modu³ centrum sterowania KDE pozwalaj±cy u¿ytkownikom
+korzystaæ z pe³ni mo¿liwo¶ci touchpadów Synaptics. Polega na
+sterowniku synapics z XFree86 i oferuje nastêpuj±ce mo¿liwo¶ci:
+ - regulowanie czu³o¶ci nacisku
+ - konfiguracja stukania
+ - emulacja przycisków myszy
+ - przewijanie w kó³ko
+ - tryb inteligentny
 
 %prep
 %setup -q
