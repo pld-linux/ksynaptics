@@ -4,7 +4,7 @@ Name:		ksynaptics
 Version:	0.2.4
 Release:	1
 License:	GPL
-Group:		X11/Applications	
+Group:		X11/Applications
 Source0:	http://qsynaptics.sourceforge.net/%{name}-%{version}.tar.gz
 # Source0-md5:	227c3eaa7dde7e5abd0a984a11c70e29
 URL:		http://qsynaptics.sourceforge.net/
