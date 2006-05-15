@@ -1,16 +1,17 @@
 Summary:	Touchpad configuration module for KDE Control Center
 Summary(pl):	Modu³ konfiguracyjny dla touchpadów do centrum sterowania KDE
 Name:		ksynaptics
-Version:	0.2.4
+Version:	0.3.1
 Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://qsynaptics.sourceforge.net/%{name}-%{version}.tar.gz
-# Source0-md5:	227c3eaa7dde7e5abd0a984a11c70e29
+# Source0-md5:	25fc978aa36c55ec1e5f089364412452
 URL:		http://qsynaptics.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	kdelibs-devel >= 9:3.2.0
+BuildRequires:	libsynaptics-devel = 0.14.4d
 BuildRequires:	rpmbuild(macros) >= 1.129
 #BuildRequires:	unsermake >= 040805
 Requires:	X11-synaptics >= 0.14.4
