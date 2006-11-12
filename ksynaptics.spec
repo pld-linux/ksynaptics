@@ -7,14 +7,15 @@ License:	GPL
 Group:		X11/Applications
 Source0:	http://qsynaptics.sourceforge.net/%{name}-%{version}.tar.gz
 # Source0-md5:	25fc978aa36c55ec1e5f089364412452
+Patch0:		kde-ac260.patch
+Patch1:		kde-am.patch
 URL:		http://qsynaptics.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	kdelibs-devel >= 9:3.2.0
-BuildRequires:	libsynaptics-devel = 0.14.4d
+BuildRequires:	libsynaptics-devel >= 0.14.4d
 BuildRequires:	rpmbuild(macros) >= 1.129
-#BuildRequires:	unsermake >= 040805
-Requires:	X11-synaptics >= 0.14.4
+Requires:	xorg-driver-input-synaptics >= 0.14.4
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -39,10 +40,8 @@ sterowniku synapics z XFree86 i oferuje nastêpuj±ce mo¿liwo¶ci:
 
 %prep
 %setup -q
-#cd po
-#SUBDIRS=`find ./ -name \*.po -printf "%h\n"|cut -c 3-|tr "\n" " "`;
-#%{__sed} -i -e "s,SUBDIRS.*,SUBDIRS=$SUBDIRS,g" Makefile.am
-#cd ..
+%patch0 -p1
+%patch1 -p1
 
 %build
 cp -f /usr/share/automake/config.sub admin
