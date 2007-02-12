@@ -1,5 +1,5 @@
 Summary:	Touchpad configuration module for KDE Control Center
-Summary(pl):	Modu≥ konfiguracyjny dla touchpadÛw do centrum sterowania KDE
+Summary(pl.UTF-8):   Modu≈Ç konfiguracyjny dla touchpad√≥w do centrum sterowania KDE
 Name:		ksynaptics
 Version:	0.3.1
 Release:	1
@@ -28,14 +28,14 @@ XFree86's synaptics driver and offers the following features:
  - circular scrolling
  - smart mode
 
-%description -l pl
-KSynaptics to modu≥ centrum sterowania KDE pozwalaj±cy uøytkownikom
-korzystaÊ z pe≥ni moøliwo∂ci touchpadÛw Synaptics. Polega na
-sterowniku synapics z XFree86 i oferuje nastÍpuj±ce moøliwo∂ci:
- - regulowanie czu≥o∂ci nacisku
+%description -l pl.UTF-8
+KSynaptics to modu≈Ç centrum sterowania KDE pozwalajƒÖcy u≈ºytkownikom
+korzystaƒá z pe≈Çni mo≈ºliwo≈õci touchpad√≥w Synaptics. Polega na
+sterowniku synapics z XFree86 i oferuje nastƒôpujƒÖce mo≈ºliwo≈õci:
+ - regulowanie czu≈Ço≈õci nacisku
  - konfiguracja stukania
- - emulacja przyciskÛw myszy
- - przewijanie w kÛ≥ko
+ - emulacja przycisk√≥w myszy
+ - przewijanie w k√≥≈Çko
  - tryb inteligentny
 
 %prep
