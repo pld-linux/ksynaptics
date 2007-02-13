@@ -1,5 +1,5 @@
 Summary:	Touchpad configuration module for KDE Control Center
-Summary(pl.UTF-8):   Moduł konfiguracyjny dla touchpadów do centrum sterowania KDE
+Summary(pl.UTF-8):	Moduł konfiguracyjny dla touchpadów do centrum sterowania KDE
 Name:		ksynaptics
 Version:	0.3.1
 Release:	1
